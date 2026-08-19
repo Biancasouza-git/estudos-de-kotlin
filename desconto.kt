@@ -18,4 +18,6 @@ fun main(){
     println("Desconto inválido!!")
     println(resultado)
   }
+
+  println(valorTotal)
 }
