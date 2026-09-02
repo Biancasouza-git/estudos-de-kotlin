@@ -3,6 +3,7 @@ fun main(){
 
   for (i in numeros.indices){
     val numeroAleatorio = (1..100).random()
+    numeros[i] = numeroAleatorio
   }
 
   println(numeros.contentToString())
